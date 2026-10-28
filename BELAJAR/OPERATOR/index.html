@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operators | JavaScript</title>
+  </head>
+  <body>
+    <script>
+      let a = 10;
+      let b = 5;
+      // ARITHMETIC OPERATORS
+      console.log("ARITHMETIC OPERATORS");
+      //   addition
+      console.log(`${a} + ${b} = ${a + b}`);
+      //   subtraction
+      console.log(`${a} - ${b} = ${a - b}`);
+      //   multiplication
+      console.log(`${a} x ${b} = ${a * b}`);
+      //   division
+      console.log(`${a} ÷ ${b} = ${a / b}`);
+      // AUGMENTED ASSIGNMENT OPERATOR
+      console.log("AUGMENTED ASSIGNMENT OPERATORS");
+      let x = 10;
+      console.log(x);
+      x += 5;
+      console.log("+5");
+      console.log(x);
+      x -= 3;
+      console.log("-3");
+      console.log(x);
+      x *= 2;
+      console.log("*2");
+      console.log(x);
+      x /= 4;
+      console.log("/4");
+      console.log(x);
+      x %= 4;
+      console.log("%4");
+      console.log(x);
+      x **= 3; //pangkat
+      console.log("**3");
+      console.log(x);
+      // Comparison Operators
+      console.log("COMPARISON OPERATORS");
+      let num1 = 10;
+      let num2 = 5;
+      let num3 = "10";
+
+      console.log("bigger than");
+      console.log(`${num1} > ${num2} is`);
+      console.log(num1 > num2);
+      console.log("less than");
+      console.log(`${num1} < ${num2} is`);
+      console.log(num1 > num2);
+      console.log("less than equals");
+      console.log(`${num1} <= ${num3} is`);
+      console.log(num1 <= num3);
+      console.log("equals");
+      console.log(`${num1} == ${num3} is`);
+      console.log(num1 == num3);
+      console.log("equals (type)");
+      console.log(`${num1} === ${num3} is`);
+      console.log(num1 === num3);
+      console.log("not equal to");
+      console.log(`${num1} != ${num3} is`);
+      console.log(num1 != num3);
+      console.log("not equal to/not same type");
+      console.log(`${num1} !== ${num3} is`);
+      console.log(num1 !== num3);
+
+      // LOGIC OPERATORS
+      console.log("LOGIC OPERATORS");
+      // && (And)
+      console.log("&& and");
+      console.log("true && true =");
+      console.log(true && true);
+      console.log("true && false =");
+      console.log(true && false);
+      console.log("false && false =");
+      console.log(false && false);
+      console.log("|| or");
+      console.log("true || true =");
+      console.log(true || true);
+      console.log("true || false =");
+      console.log(true || false);
+      console.log("false || false =");
+      console.log(false || false);
+      console.log("! not");
+      let isHappy = true;
+      let isSad = !isHappy;
+      console.log(`let isHappy = true`);
+      console.log(`let isSad = !isHappy`);
+      console.log(!isHappy);
+
+      // UNARY OPERATORS
+      console.log("UNARY OPERATORS");
+      // increment
+      let increment = 10;
+      console.log(increment);
+      increment++;
+      console.log(increment);
+      // decrement
+      let decrement = 10;
+      console.log(decrement);
+      decrement--;
+      console.log(decrement);
+    </script>
+  </body>
+</html>
